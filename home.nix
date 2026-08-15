@@ -26,7 +26,7 @@ in
     enableCompletion = false;
 
     shellAliases = {
-      go-server = "ssh ray@ray-homelab-ubuntu";
+     go-server = "ssh ray@ray-homelab-ubuntu";
      zj = "zellij";
    };
 
@@ -34,6 +34,7 @@ in
      export BUN_INSTALL="$HOME/.bun"
      export PATH="$BUN_INSTALL/bin:$PATH"
      export PATH="$HOME/.local/bin:$PATH"
+     export PATH=/Users/zryy/.opencode/bin:$PATH
 
      ZIM_HOME="''${ZDOTDIR:-$HOME}/.zim"
 
